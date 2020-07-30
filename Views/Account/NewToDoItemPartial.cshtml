@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Todo.ViewModels.ToDoItemViewModel
+<div class="row justify-content-center align-content-center">
+    <div id="modalDialog" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Create new ToDo Item</h4>
+                </div>
+                <div class="modal-body">
+                    <form method="post" asp-controller="Account" asp-action="Create">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Title)
+                            @Html.TextBoxFor(model => model.Title, new { @class = "form-control", @id = "titleTextBox" })
+                            @Html.ValidationMessageFor(model => model.Title)
+                            @Html.HiddenFor(model => model.UserId)
+                        </div>
+                        <input type="submit" value="Submit" class="btn btn-success" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
