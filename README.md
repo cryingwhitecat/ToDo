@@ -9,14 +9,13 @@ User authentication is handled by the ASP .NET Core **Identity** class. You can 
 #### A Few Screenshots
 This project was developed only with educational purpose in mind, so it is not hosted anywhere. To illustrate it's functionality, I've added a couple of screenshots.
 
-![image-20200730160416030](C:\Users\winus\AppData\Roaming\Typora\typora-user-images\image-20200730160416030.png)
 
-![image-20200730160521247](C:\Users\winus\AppData\Roaming\Typora\typora-user-images\image-20200730160521247.png)
+![Home Page](https://github.com/cryingwhitecat/ToDo/blob/imgs/imgs/index-page.png)
 
-![image-20200730161010686](C:\Users\winus\AppData\Roaming\Typora\typora-user-images\image-20200730161010686.png)
+![Login Page](https://github.com/cryingwhitecat/ToDo/blob/imgs/imgs/login-page.png)
 
-![image-20200730161045063](C:\Users\winus\AppData\Roaming\Typora\typora-user-images\image-20200730161045063.png)
+![Register Page](https://github.com/cryingwhitecat/ToDo/blob/imgs/imgs/register-page.png)
 
-![image-20200730161155904](C:\Users\winus\AppData\Roaming\Typora\typora-user-images\image-20200730161155904.png)
+![Tasks List](https://github.com/cryingwhitecat/ToDo/blob/imgs/imgs/todo-list.png)
 
-![image-20200730161936253](C:\Users\winus\AppData\Roaming\Typora\typora-user-images\image-20200730161936253.png)
+![Edit Item Form](https://github.com/cryingwhitecat/ToDo/blob/imgs/imgs/edit-form.png)
