@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Todo.Models
 {
+    /// <summary>
+    /// EF Context for the Identity class
+    /// </summary>
     public class ApplicationIdentityContext : IdentityDbContext<User>
     {
         public ApplicationIdentityContext(DbContextOptions<ApplicationIdentityContext> options)

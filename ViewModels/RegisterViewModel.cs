@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Todo.ViewModels
 {
+    /// <summary>
+    /// ViewModel for a new user form
+    /// </summary>
     public class RegisterViewModel
     {
         [Required]

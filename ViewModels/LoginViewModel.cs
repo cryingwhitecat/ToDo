@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Todo.ViewModels
 {
+    /// <summary>
+    /// Viewmodel for the login page
+    /// </summary>
     public class LoginViewModel
     {
         [Required]

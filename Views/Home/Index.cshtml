@@ -12,6 +12,10 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome To ToDo App!</h1>
+    @if (!User.Identity.IsAuthenticated)
+    {
+    <p>Begin by <a asp-action="register" asp-controller="account">Creating an Account</a> or
+    <a asp-action="login" asp-controller="account">Logging in</a></p>
+    }
 </div>

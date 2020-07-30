@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Todo.ViewModels
 {
+    /// <summary>
+    /// ViewModel for the CRUD methods
+    /// </summary>
     public class ToDoItemViewModel
     {
         public int ItemId { get; set; }
